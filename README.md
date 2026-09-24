@@ -26,7 +26,7 @@ Resolução dos 6 mini-desafios focados na sintaxe básica, manipulação de var
 
 ## Arquivos do Repositório
 
-- `entregavel semana 01`: Código-fonte principal com as funções dos 6 mini-desafios da Semana 01.
+- `entregavel semana01`: Código-fonte principal com as funções dos 6 mini-desafios da Semana 01.
 - `README.md`: Documentação e estrutura explicativa do repositório.
 
 
