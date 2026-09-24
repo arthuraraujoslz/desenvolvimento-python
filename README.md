@@ -50,9 +50,9 @@ Organização de código modularizado aplicando conceitos de parâmetros, retorn
 
 ## Arquivos do Repositório
 
-- `entregavel semana 01`: Código-fonte principal com as funções dos 6 mini-desafios da Semana 01.
-- `entregavel_semana02.py`: Código-fonte com as funções dos 4 desafios de estruturas de controle da Semana 02.
-- `entregavel_semana03.py`: Código-fonte com os módulos, funções e desafios avançados da Semana 03.
+- `entregavel semana01`: Código-fonte principal com as funções dos 6 mini-desafios da Semana 01.
+- `entregavel_semana02`: Código-fonte com as funções dos 4 desafios de estruturas de controle da Semana 02.
+- `entregavel_semana03`: Código-fonte com os módulos, funções e desafios avançados da Semana 03.
 - `README.md`: Documentação e estrutura explicativa completa do repositório.
 
 ---
