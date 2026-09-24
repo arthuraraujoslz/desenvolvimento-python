@@ -1,6 +1,6 @@
 # Desenvolvimento em Python — Atividades Acadêmicas
 
-Este repositório contém as soluções dos desafios e projetos desenvolvidos para a disciplina de **Desenvolvimento em Python**, cobrindo desde os fundamentos da linguagem até estruturas de dados e lógica aplicada.
+Este repositório contém as soluções dos desafios e projetos desenvolvidos para a disciplina de **Desenvolvimento em Python**, cobrindo desde os fundamentos da linguagem até estruturas de dados, controle de fluxo, modularização e boas práticas aplicadas.
 
 ---
 
@@ -36,18 +36,33 @@ Resolução dos 4 desafios focados em tomada de decisão e laços de repetição
 
 ---
 
+### Semana 03 — Modularização, Funções e Estruturas Avançadas
+
+Organização de código modularizado aplicando conceitos de parâmetros, retornos, tratamento defensivo, `*args`, `**kwargs` e recursão:
+
+- **Módulo Calculadora:** Operações matemáticas básicas com tratamento defensivo de divisão por zero.
+- **Módulo Utilidades:** Funções para conversão de temperatura, validação de senha, cálculo de caixa (`*args`) e ficha de aluno (`**kwargs`).
+- **Lista Segura:** Manipulação defensiva de coleções mutáveis sem alterar a lista original.
+- **Funções Bônus e Avançadas:** Módulo estatístico (média, mediana, moda), função recursiva de fatorial e gerador de relatórios configuráveis.
+- **Equivalência em Portugal:** Demonstração da lógica em pseudocódigo comparada ao Python.
+
+---
+
 ## Arquivos do Repositório
 
 - `entregavel semana 01`: Código-fonte principal com as funções dos 6 mini-desafios da Semana 01.
 - `entregavel_semana02.py`: Código-fonte com as funções dos 4 desafios de estruturas de controle da Semana 02.
-- `README.md`: Documentação e estrutura explicativa do repositório.
+- `entregavel_semana03.py`: Código-fonte com os módulos, funções e desafios avançados da Semana 03.
+- `README.md`: Documentação e estrutura explicativa completa do repositório.
 
 ---
 
 ## Boas Práticas Aplicadas
 
 - Nomenclatura de variáveis e funções em `snake_case` (convenção PEP 8).
+- Documentação de funções através de *docstrings*.
 - Conversão explícita de tipos de dados (`int`, `float`).
 - Formatação de saídas limpas e claras utilizando *f-strings*.
-- Uso de estruturas modernas como `match/case` e laços de controle `for` e `while`.
-- Código modularizado e com comentários explicativos.
+- Uso de estruturas modernas (`match/case`, laços `for`/`while`).
+- Programação defensiva (cópia de listas e tratamento de exceções).
+- Modularização e reaproveitamento de código com `if __name__ == "__main__":`.
