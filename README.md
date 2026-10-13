@@ -53,7 +53,7 @@ Finalização do Sistema de Análise de Dados aplicando leitura segura de arquiv
 - `entregavel_semana02.py`: Código-fonte com as funções dos 4 desafios de estruturas de controle da Semana 02.
 - `entregavel_semana03.py`: Código-fonte com os módulos, funções e desafios avançados da Semana 03.
 - `entregavel_semana04.py`: Código-fonte com o sistema de produtos e a aplicação de estruturas de dados (Listas, Tuplas, Conjuntos) da Semana 04.
-- `entregavel_semana05/sistema_analise_dados.py`: Código-fonte do sistema de análise de dados com validação via regex e exceções personalizadas.
+- `entregavel_semana05.py`: Código-fonte do sistema de análise de dados com validação via regex e exceções personalizadas.
 - `README.md`: Documentação e estrutura explicativa completa do repositório.
 
 ## Boas Práticas Aplicadas
