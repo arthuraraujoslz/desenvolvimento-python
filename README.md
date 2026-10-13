@@ -41,10 +41,10 @@ Finalização do sistema de produtos aplicando conceitos de Listas, Tuplas e Con
 
 ## Arquivos do Repositório
 
-- `entregavel_semana01`: Código-fonte principal com as funções dos 6 mini-desafios da Semana 01.
-- `entregavel_semana02`: Código-fonte com as funções dos 4 desafios de estruturas de controle da Semana 02.
-- `entregavel_semana03`: Código-fonte com os módulos, funções e desafios avançados da Semana 03.
-- `entregavel_semana04`: Código-fonte com o sistema de produtos e a aplicação de estruturas de dados (Listas, Tuplas, Conjuntos) da Semana 04.
+- `entregavel_semana01.py`: Código-fonte principal com as funções dos 6 mini-desafios da Semana 01.
+- `entregavel_semana02.py`: Código-fonte com as funções dos 4 desafios de estruturas de controle da Semana 02.
+- `entregavel_semana03.py`: Código-fonte com os módulos, funções e desafios avançados da Semana 03.
+- `entregavel_semana04.py`: Código-fonte com o sistema de produtos e a aplicação de estruturas de dados (Listas, Tuplas, Conjuntos) da Semana 04.
 - `README.md`: Documentação e estrutura explicativa completa do repositório.
 
 ## Boas Práticas Aplicadas
