@@ -39,12 +39,21 @@ Finalização do sistema de produtos aplicando conceitos de Listas, Tuplas e Con
 - **Categorias Únicas:** Utilização de `set()` para a eliminação automática de elementos duplicados.
 - **Estatísticas:** Extração de métricas de preços (menor, maior, média) consolidadas de forma segura em uma tupla imutável.
 
+### Semana 05 — Manipulação de Arquivos, Regex e Tratamento de Exceções
+Finalização do Sistema de Análise de Dados aplicando leitura segura de arquivos, validações avançadas de formatos e gestão robusta de erros.
+- **Leitura Segura:** Utilização de blocos `with open(..., encoding="utf-8")` para manipulação de arquivos de texto e CSV.
+- **Validação com Expressões Regulares (`re`):** Emprego de *raw strings* e metacaracteres para validação rigorosa de e-mails, CPFs, telefones e datas.
+- **Tratamento de Exceções Avançado:** Estruturas completas contendo `try/except/else/finally` para captura de `FileNotFoundError`, `ValueError` e `KeyError`.
+- **Exceção Personalizada:** Criação de classe de erro própria herdando de `Exception` para gerenciar regras específicas de validação de dados.
+- **Relatório Automatizado:** Processamento e consolidação de estatísticas de registros válidos e inválidos formatados por meio de *f-strings*.
+
 ## Arquivos do Repositório
 
 - `entregavel_semana01.py`: Código-fonte principal com as funções dos 6 mini-desafios da Semana 01.
 - `entregavel_semana02.py`: Código-fonte com as funções dos 4 desafios de estruturas de controle da Semana 02.
 - `entregavel_semana03.py`: Código-fonte com os módulos, funções e desafios avançados da Semana 03.
 - `entregavel_semana04.py`: Código-fonte com o sistema de produtos e a aplicação de estruturas de dados (Listas, Tuplas, Conjuntos) da Semana 04.
+- `entregavel_semana05/sistema_analise_dados.py`: Código-fonte do sistema de análise de dados com validação via regex e exceções personalizadas.
 - `README.md`: Documentação e estrutura explicativa completa do repositório.
 
 ## Boas Práticas Aplicadas
