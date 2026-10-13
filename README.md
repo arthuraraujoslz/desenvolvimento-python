@@ -1,6 +1,6 @@
 # Desenvolvimento em Python — Atividades Acadêmicas
 
-Este repositório contém as soluções dos desafios e projetos desenvolvidos para a disciplina de Desenvolvimento em Python, cobrindo desde os fundamentos da linguagem até estruturas de dados, controle de fluxo, modularização e boas práticas aplicadas.
+Este repositório contém as soluções dos desafios e projetos desenvolvidos para a disciplina de Desenvolvimento em Python, cobrindo desde os fundamentos da linguagem até estruturas de dados, controle de fluxo, modularização, manipulação de arquivos, expressões regulares e Programação Orientada a Objetos (POO).
 
 ## Sobre o Projeto
 
@@ -47,6 +47,14 @@ Finalização do Sistema de Análise de Dados aplicando leitura segura de arquiv
 - **Exceção Personalizada:** Criação de classe de erro própria herdando de `Exception` para gerenciar regras específicas de validação de dados.
 - **Relatório Automatizado:** Processamento e consolidação de estatísticas de registros válidos e inválidos formatados por meio de *f-strings*.
 
+### Semana 06 — Programação Orientada a Objetos (POO)
+Desenvolvimento de um sistema completo modelado com princípios de POO, garantindo integridade de dados e polimorfismo.
+- **Classes e Abstração:** Utilização de classes base abstratas (`ABC`, `@abstractmethod`) para definir contratos estruturais.
+- **Herança e Reutilização:** Extensão de comportamentos utilizando `super().__init__()` para a hierarquia de classes.
+- **Encapsulamento Avançado:** Proteção de atributos com `@property` e validações estritas nos *setters* para impedir estados inválidos.
+- **Polimorfismo:** Sobrescrita de métodos em subclasses para demonstrar respostas distintas a uma mesma chamada.
+- **Métodos Especiais (Dunder):** Implementação de `__str__` e `__repr__` para representação limpa e amigável de objetos.
+
 ## Arquivos do Repositório
 
 - `entregavel_semana01.py`: Código-fonte principal com as funções dos 6 mini-desafios da Semana 01.
@@ -54,14 +62,5 @@ Finalização do Sistema de Análise de Dados aplicando leitura segura de arquiv
 - `entregavel_semana03.py`: Código-fonte com os módulos, funções e desafios avançados da Semana 03.
 - `entregavel_semana04.py`: Código-fonte com o sistema de produtos e a aplicação de estruturas de dados (Listas, Tuplas, Conjuntos) da Semana 04.
 - `entregavel_semana05.py`: Código-fonte do sistema de análise de dados com validação via regex e exceções personalizadas.
+- `entregavel_semana06.py`: Código-fonte do sistema orientado a objetos com classes abstratas, encapsulamento e polimorfismo.
 - `README.md`: Documentação e estrutura explicativa completa do repositório.
-
-## Boas Práticas Aplicadas
-
-- Nomenclatura de variáveis e funções em `snake_case` (convenção PEP 8).
-- Documentação de funções através de *docstrings*.
-- Conversão explícita de tipos de dados (`int`, `float`).
-- Formatação de saídas limpas e claras utilizando *f-strings*.
-- Uso de estruturas modernas (`match/case`, laços `for`/`while`).
-- Programação defensiva (cópia de listas e tratamento de exceções).
-- Modularização e reaproveitamento de código com `if __name__ == "__main__":`.
